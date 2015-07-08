@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		198D7A621AF7AC910098EB36 /* WorklightAPI in Resources */ = {isa = PBXBuildFile; fileRef = 198D7A611AF7AC910098EB36 /* WorklightAPI */; };
+		198D7A651AF7ACBF0098EB36 /* IBMMobileFirstPlatformFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 198D7A631AF7ACAF0098EB36 /* IBMMobileFirstPlatformFoundation.framework */; };
+		8208CB431AB6E51E00F0166E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8208CB421AB6E51E00F0166E /* AppDelegate.swift */; };
+		8208CB451AB6E51E00F0166E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8208CB441AB6E51E00F0166E /* ViewController.swift */; };
+		8208CB481AB6E51E00F0166E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8208CB461AB6E51E00F0166E /* Main.storyboard */; };
+		8208CB4A1AB6E51E00F0166E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8208CB491AB6E51E00F0166E /* Images.xcassets */; };
+		8208CB4D1AB6E51E00F0166E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8208CB4B1AB6E51E00F0166E /* LaunchScreen.xib */; };
+		8208CB671AB6E5BF00F0166E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8208CB661AB6E5BF00F0166E /* SystemConfiguration.framework */; };
+		8208CB6D1AB6E62D00F0166E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8208CB6C1AB6E62D00F0166E /* MobileCoreServices.framework */; };
+		8208CB6F1AB6E63900F0166E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8208CB6E1AB6E63900F0166E /* CoreData.framework */; };
+		8208CB711AB6E64400F0166E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8208CB701AB6E64400F0166E /* CoreLocation.framework */; };
+		8208CB731AB6E64E00F0166E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8208CB721AB6E64E00F0166E /* Security.framework */; };
+		8208CB751AB6E65A00F0166E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8208CB741AB6E65A00F0166E /* libz.dylib */; };
+		8208CB771AB6E6ED00F0166E /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8208CB761AB6E6ED00F0166E /* libc++.dylib */; };
+		8208CB791AB6E70200F0166E /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8208CB781AB6E70200F0166E /* libstdc++.6.dylib */; };
+		8208CB7A1AB6E7E200F0166E /* sqlcipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8208CB681AB6E5F600F0166E /* sqlcipher.framework */; };
+		8208CBB41AB71D0900F0166E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8208CBB31AB71D0900F0166E /* LoginViewController.swift */; };
+		826C48BA1AEE4A9B00AB3B37 /* worklight.plist in Resources */ = {isa = PBXBuildFile; fileRef = 826C48B81AEE4A9B00AB3B37 /* worklight.plist */; };
+		827123381ABAEDEA008E5E51 /* MyConnectListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827123371ABAEDEA008E5E51 /* MyConnectListener.swift */; };
+		8271233C1ABAF5AB008E5E51 /* MyChallengeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8271233B1ABAF5AB008E5E51 /* MyChallengeHandler.swift */; };
+		82C44D031ABEC28B00133684 /* MyLogoutListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C44D021ABEC28B00133684 /* MyLogoutListener.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		198D7A611AF7AC910098EB36 /* WorklightAPI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WorklightAPI; sourceTree = "<group>"; };
+		198D7A631AF7ACAF0098EB36 /* IBMMobileFirstPlatformFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBMMobileFirstPlatformFoundation.framework; path = WorklightAPI/Frameworks/IBMMobileFirstPlatformFoundation.framework; sourceTree = "<group>"; };
+		8208CB3D1AB6E51E00F0166E /* FormBasedAuthSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormBasedAuthSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8208CB411AB6E51E00F0166E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8208CB421AB6E51E00F0166E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8208CB441AB6E51E00F0166E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8208CB471AB6E51E00F0166E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8208CB491AB6E51E00F0166E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8208CB4C1AB6E51E00F0166E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8208CB661AB6E5BF00F0166E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8208CB681AB6E5F600F0166E /* sqlcipher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = sqlcipher.framework; path = WorklightAPI/Frameworks/sqlcipher.framework; sourceTree = "<group>"; };
+		8208CB6C1AB6E62D00F0166E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		8208CB6E1AB6E63900F0166E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8208CB701AB6E64400F0166E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8208CB721AB6E64E00F0166E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8208CB741AB6E65A00F0166E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		8208CB761AB6E6ED00F0166E /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		8208CB781AB6E70200F0166E /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
+		8208CBB31AB71D0900F0166E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		826C48B81AEE4A9B00AB3B37 /* worklight.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = worklight.plist; sourceTree = "<group>"; };
+		827123371ABAEDEA008E5E51 /* MyConnectListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyConnectListener.swift; sourceTree = "<group>"; };
+		8271233B1ABAF5AB008E5E51 /* MyChallengeHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyChallengeHandler.swift; sourceTree = "<group>"; };
+		82C44D021ABEC28B00133684 /* MyLogoutListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLogoutListener.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8208CB3A1AB6E51E00F0166E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198D7A651AF7ACBF0098EB36 /* IBMMobileFirstPlatformFoundation.framework in Frameworks */,
+				8208CB731AB6E64E00F0166E /* Security.framework in Frameworks */,
+				8208CB711AB6E64400F0166E /* CoreLocation.framework in Frameworks */,
+				8208CB6F1AB6E63900F0166E /* CoreData.framework in Frameworks */,
+				8208CB6D1AB6E62D00F0166E /* MobileCoreServices.framework in Frameworks */,
+				8208CB671AB6E5BF00F0166E /* SystemConfiguration.framework in Frameworks */,
+				8208CB7A1AB6E7E200F0166E /* sqlcipher.framework in Frameworks */,
+				8208CB751AB6E65A00F0166E /* libz.dylib in Frameworks */,
+				8208CB771AB6E6ED00F0166E /* libc++.dylib in Frameworks */,
+				8208CB791AB6E70200F0166E /* libstdc++.6.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8208CB341AB6E51E00F0166E = {
+			isa = PBXGroup;
+			children = (
+				198D7A611AF7AC910098EB36 /* WorklightAPI */,
+				826C48B81AEE4A9B00AB3B37 /* worklight.plist */,
+				8208CB3F1AB6E51E00F0166E /* FormBasedAuthSwift */,
+				8208CB7B1AB70C5100F0166E /* frameworks */,
+				8208CB3E1AB6E51E00F0166E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8208CB3E1AB6E51E00F0166E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8208CB3D1AB6E51E00F0166E /* FormBasedAuthSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8208CB3F1AB6E51E00F0166E /* FormBasedAuthSwift */ = {
+			isa = PBXGroup;
+			children = (
+				8208CB421AB6E51E00F0166E /* AppDelegate.swift */,
+				8208CB441AB6E51E00F0166E /* ViewController.swift */,
+				8208CB461AB6E51E00F0166E /* Main.storyboard */,
+				8208CB491AB6E51E00F0166E /* Images.xcassets */,
+				8208CB4B1AB6E51E00F0166E /* LaunchScreen.xib */,
+				8208CB401AB6E51E00F0166E /* Supporting Files */,
+			);
+			path = FormBasedAuthSwift;
+			sourceTree = "<group>";
+		};
+		8208CB401AB6E51E00F0166E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8208CBB31AB71D0900F0166E /* LoginViewController.swift */,
+				8208CB411AB6E51E00F0166E /* Info.plist */,
+				827123371ABAEDEA008E5E51 /* MyConnectListener.swift */,
+				8271233B1ABAF5AB008E5E51 /* MyChallengeHandler.swift */,
+				82C44D021ABEC28B00133684 /* MyLogoutListener.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8208CB7B1AB70C5100F0166E /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				198D7A631AF7ACAF0098EB36 /* IBMMobileFirstPlatformFoundation.framework */,
+				8208CB781AB6E70200F0166E /* libstdc++.6.dylib */,
+				8208CB761AB6E6ED00F0166E /* libc++.dylib */,
+				8208CB741AB6E65A00F0166E /* libz.dylib */,
+				8208CB721AB6E64E00F0166E /* Security.framework */,
+				8208CB701AB6E64400F0166E /* CoreLocation.framework */,
+				8208CB6E1AB6E63900F0166E /* CoreData.framework */,
+				8208CB6C1AB6E62D00F0166E /* MobileCoreServices.framework */,
+				8208CB681AB6E5F600F0166E /* sqlcipher.framework */,
+				8208CB661AB6E5BF00F0166E /* SystemConfiguration.framework */,
+			);
+			name = frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8208CB3C1AB6E51E00F0166E /* FormBasedAuthSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8208CB5C1AB6E51E00F0166E /* Build configuration list for PBXNativeTarget "FormBasedAuthSwift" */;
+			buildPhases = (
+				8208CB391AB6E51E00F0166E /* Sources */,
+				8208CB3A1AB6E51E00F0166E /* Frameworks */,
+				8208CB3B1AB6E51E00F0166E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FormBasedAuthSwift;
+			productName = FormBasedAuthSwift;
+			productReference = 8208CB3D1AB6E51E00F0166E /* FormBasedAuthSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8208CB351AB6E51E00F0166E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = IBM;
+				TargetAttributes = {
+					8208CB3C1AB6E51E00F0166E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 8208CB381AB6E51E00F0166E /* Build configuration list for PBXProject "FormBasedAuthSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8208CB341AB6E51E00F0166E;
+			productRefGroup = 8208CB3E1AB6E51E00F0166E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8208CB3C1AB6E51E00F0166E /* FormBasedAuthSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8208CB3B1AB6E51E00F0166E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826C48BA1AEE4A9B00AB3B37 /* worklight.plist in Resources */,
+				198D7A621AF7AC910098EB36 /* WorklightAPI in Resources */,
+				8208CB481AB6E51E00F0166E /* Main.storyboard in Resources */,
+				8208CB4D1AB6E51E00F0166E /* LaunchScreen.xib in Resources */,
+				8208CB4A1AB6E51E00F0166E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8208CB391AB6E51E00F0166E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				827123381ABAEDEA008E5E51 /* MyConnectListener.swift in Sources */,
+				82C44D031ABEC28B00133684 /* MyLogoutListener.swift in Sources */,
+				8208CBB41AB71D0900F0166E /* LoginViewController.swift in Sources */,
+				8271233C1ABAF5AB008E5E51 /* MyChallengeHandler.swift in Sources */,
+				8208CB451AB6E51E00F0166E /* ViewController.swift in Sources */,
+				8208CB431AB6E51E00F0166E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8208CB461AB6E51E00F0166E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8208CB471AB6E51E00F0166E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8208CB4B1AB6E51E00F0166E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8208CB4C1AB6E51E00F0166E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8208CB5A1AB6E51E00F0166E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8208CB5B1AB6E51E00F0166E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8208CB5D1AB6E51E00F0166E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WorklightAPI/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = FormBasedAuthSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WorklightAPI",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Debug;
+		};
+		8208CB5E1AB6E51E00F0166E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WorklightAPI/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = FormBasedAuthSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WorklightAPI",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8208CB381AB6E51E00F0166E /* Build configuration list for PBXProject "FormBasedAuthSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8208CB5A1AB6E51E00F0166E /* Debug */,
+				8208CB5B1AB6E51E00F0166E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8208CB5C1AB6E51E00F0166E /* Build configuration list for PBXNativeTarget "FormBasedAuthSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8208CB5D1AB6E51E00F0166E /* Debug */,
+				8208CB5E1AB6E51E00F0166E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8208CB351AB6E51E00F0166E /* Project object */;
+}
