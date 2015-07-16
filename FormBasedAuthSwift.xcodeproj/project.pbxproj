@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		198D7A621AF7AC910098EB36 /* WorklightAPI in Resources */ = {isa = PBXBuildFile; fileRef = 198D7A611AF7AC910098EB36 /* WorklightAPI */; };
 		198D7A651AF7ACBF0098EB36 /* IBMMobileFirstPlatformFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 198D7A631AF7ACAF0098EB36 /* IBMMobileFirstPlatformFoundation.framework */; };
 		8208CB431AB6E51E00F0166E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8208CB421AB6E51E00F0166E /* AppDelegate.swift */; };
 		8208CB451AB6E51E00F0166E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8208CB441AB6E51E00F0166E /* ViewController.swift */; };
@@ -24,14 +23,14 @@
 		8208CB791AB6E70200F0166E /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8208CB781AB6E70200F0166E /* libstdc++.6.dylib */; };
 		8208CB7A1AB6E7E200F0166E /* sqlcipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8208CB681AB6E5F600F0166E /* sqlcipher.framework */; };
 		8208CBB41AB71D0900F0166E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8208CBB31AB71D0900F0166E /* LoginViewController.swift */; };
-		826C48BA1AEE4A9B00AB3B37 /* worklight.plist in Resources */ = {isa = PBXBuildFile; fileRef = 826C48B81AEE4A9B00AB3B37 /* worklight.plist */; };
 		827123381ABAEDEA008E5E51 /* MyConnectListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827123371ABAEDEA008E5E51 /* MyConnectListener.swift */; };
 		8271233C1ABAF5AB008E5E51 /* MyChallengeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8271233B1ABAF5AB008E5E51 /* MyChallengeHandler.swift */; };
 		82C44D031ABEC28B00133684 /* MyLogoutListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C44D021ABEC28B00133684 /* MyLogoutListener.swift */; };
+		82DA30A61B56A38100433975 /* worklight.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82DA30A41B56A38100433975 /* worklight.plist */; };
+		82DA30A71B56A38100433975 /* WorklightAPI in Resources */ = {isa = PBXBuildFile; fileRef = 82DA30A51B56A38100433975 /* WorklightAPI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		198D7A611AF7AC910098EB36 /* WorklightAPI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WorklightAPI; sourceTree = "<group>"; };
 		198D7A631AF7ACAF0098EB36 /* IBMMobileFirstPlatformFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBMMobileFirstPlatformFoundation.framework; path = WorklightAPI/Frameworks/IBMMobileFirstPlatformFoundation.framework; sourceTree = "<group>"; };
 		8208CB3D1AB6E51E00F0166E /* FormBasedAuthSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormBasedAuthSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8208CB411AB6E51E00F0166E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,10 +49,11 @@
 		8208CB761AB6E6ED00F0166E /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		8208CB781AB6E70200F0166E /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
 		8208CBB31AB71D0900F0166E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		826C48B81AEE4A9B00AB3B37 /* worklight.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = worklight.plist; sourceTree = "<group>"; };
 		827123371ABAEDEA008E5E51 /* MyConnectListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyConnectListener.swift; sourceTree = "<group>"; };
 		8271233B1ABAF5AB008E5E51 /* MyChallengeHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyChallengeHandler.swift; sourceTree = "<group>"; };
 		82C44D021ABEC28B00133684 /* MyLogoutListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLogoutListener.swift; sourceTree = "<group>"; };
+		82DA30A41B56A38100433975 /* worklight.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = worklight.plist; sourceTree = "<group>"; };
+		82DA30A51B56A38100433975 /* WorklightAPI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WorklightAPI; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +80,8 @@
 		8208CB341AB6E51E00F0166E = {
 			isa = PBXGroup;
 			children = (
-				198D7A611AF7AC910098EB36 /* WorklightAPI */,
-				826C48B81AEE4A9B00AB3B37 /* worklight.plist */,
+				82DA30A41B56A38100433975 /* worklight.plist */,
+				82DA30A51B56A38100433975 /* WorklightAPI */,
 				8208CB3F1AB6E51E00F0166E /* FormBasedAuthSwift */,
 				8208CB7B1AB70C5100F0166E /* frameworks */,
 				8208CB3E1AB6E51E00F0166E /* Products */,
@@ -195,8 +195,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				826C48BA1AEE4A9B00AB3B37 /* worklight.plist in Resources */,
-				198D7A621AF7AC910098EB36 /* WorklightAPI in Resources */,
+				82DA30A61B56A38100433975 /* worklight.plist in Resources */,
+				82DA30A71B56A38100433975 /* WorklightAPI in Resources */,
 				8208CB481AB6E51E00F0166E /* Main.storyboard in Resources */,
 				8208CB4D1AB6E51E00F0166E /* LaunchScreen.xib in Resources */,
 				8208CB4A1AB6E51E00F0166E /* Images.xcassets in Resources */,

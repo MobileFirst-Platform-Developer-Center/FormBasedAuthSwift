@@ -279,4 +279,13 @@
 -(void) searchField:(NSString*) searchField
          notBetween:(NSNumber*) number1
                 and:(NSNumber*) number2;
+
+/**
+ Remove SQLite reserved characters (like single quotes) from search field
+ @param searchField Search field to be modified
+ @since IBM Worklight V6.3.0
+ */
++(NSString*) getDatabaseSafeSearchField:(NSString*) searchField;
+
+
 @end
