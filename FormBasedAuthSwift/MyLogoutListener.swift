@@ -27,28 +27,11 @@ class MyLogoutListener: NSObject, WLDelegate {
     
     func onSuccess(response: WLResponse!) {
         NSLog("Logout Succeeded")
-        var adapterResponseAlert = UIAlertController(title: "Logout Succeeded",
-                                                    message: response.responseText,
-                                                    preferredStyle: .Alert)
-        adapterResponseAlert.addAction(UIAlertAction(title: "OK",
-                                                    style: .Default,
-                                                    handler: nil))
-        vc.presentViewController(adapterResponseAlert,
-                                animated: true,
-                                completion: nil)
-        
+        vc.alert("Logout Succeeded", msg: response.responseText)
     }
     
     func onFailure(response: WLFailResponse!) {
         NSLog("Logout Failed")
-        var adapterResponseAlert = UIAlertController(title: "Logout Failed",
-                                                    message: response.errorMsg,
-                                                    preferredStyle: .Alert)
-        adapterResponseAlert.addAction(UIAlertAction(title: "OK",
-                                                    style: .Default,
-                                                    handler: nil))
-        vc.presentViewController(adapterResponseAlert,
-                                animated: true,
-                                completion: nil)
+        vc.alert("Logout Failed", msg: response.errorMsg)
     }
 }

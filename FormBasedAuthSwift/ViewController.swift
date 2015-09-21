@@ -35,21 +35,13 @@ class ViewController: UIViewController {
     }
 
     @IBAction func callProtectedAdapterProcedure(sender: AnyObject) {
-        var url : NSURL = NSURL(string: "/adapters/AuthAdapter/getSecretData")!
-        var request : WLResourceRequest = WLResourceRequest(URL: url, method: WLHttpMethodGet)
+        let url : NSURL = NSURL(string: "/adapters/AuthAdapter/getSecretData")!
+        let request : WLResourceRequest = WLResourceRequest(URL: url, method: WLHttpMethodGet)
         request.sendWithCompletionHandler { (response: WLResponse!, error: NSError!) -> Void in
             if error != nil {
-                NSLog("Adapter invocation failure. Error: %@", error)
+                NSLog("Adapter invocation failure. Error: %@", error.description)
             } else {
-                var adapterResponseAlert = UIAlertController(title: "Adapter Response",
-                                                            message: response.responseText,
-                                                            preferredStyle: .Alert)
-                adapterResponseAlert.addAction(UIAlertAction(title: "OK",
-                                                            style: .Default,
-                                                            handler: nil))
-                self.presentViewController(adapterResponseAlert,
-                                            animated: true,
-                                            completion: nil)
+                self.alert("Adapter Response", msg: response.responseText)
             }
         }
     }
@@ -57,6 +49,23 @@ class ViewController: UIViewController {
     @IBAction func logout(sender: AnyObject) {
         WLClient.sharedInstance().logout("SampleAppRealm", withDelegate: MyLogoutListener(vc: self))
     }
+    
+    func alert(alertTitle: String, msg:String){
+        if #available (iOS 8.0, *) {
+            let alert = UIAlertController(title: alertTitle, message: msg, preferredStyle: .Alert)
+            alert.addAction(UIAlertAction(title: "OK",
+                style: .Default,
+                handler: nil))
+            self.presentViewController(alert,
+                animated: true,
+                completion: nil)
+        } else {
+            let alert:UIAlertView = UIAlertView.init(title: alertTitle, message: msg, delegate: self, cancelButtonTitle: "OK")
+            alert.show()
+        }
+    }
+    
+
 
 }
 

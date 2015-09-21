@@ -38,8 +38,7 @@ class LoginViewController: UIViewController {
  
     
     @IBAction func login(sender: AnyObject) {
-        self.challengeHandler?.submitLoginForm("j_security_check",
-                                requestParameters: ["j_username": self.username.text, "j_password": self.password.text], requestHeaders: nil, requestTimeoutInMilliSeconds: 0, requestMethod: "POST")
+        self.challengeHandler?.submitLoginForm("j_security_check", requestParameters: ["j_username": self.username.text!, "j_password": self.password.text!], requestHeaders: nil, requestTimeoutInMilliSeconds: 0, requestMethod: "POST")
         
     }
     
